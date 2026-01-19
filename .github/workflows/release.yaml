@@ -9,6 +9,29 @@ on:
       - 'v*'
 
 jobs:
+  update-meta:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Update version or generate files
+        run: |
+          python3 .github/update-meta.py
+
+      - name: Commit changes
+        run: |
+          git add .
+          git commit -m "chore: update meta.json"
+          git push origin HEAD:master
   build-and-release:
     runs-on: ubuntu-latest
     steps:
@@ -56,8 +79,8 @@ jobs:
         tag_name: ${{ github.ref }}
         release_name: Release ${{ github.ref }}
         body: |
-          ${{ steps.changelog.outputs.DECODED_CHANGELOG }} \n
-          -# Automated release created by GitHub Actions
+          ${{ steps.changelog.outputs.DECODED_CHANGELOG }}
+          #### Automated release created by GitHub Actions
         draft: false
         prerelease: false
     - name: Upload Release Artifact
