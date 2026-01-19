@@ -1404,7 +1404,7 @@
         "https://cdn.modrinth.com/data/rR4tY6Cw/versions/At2mSWPm/modpack-update-checker-1.21.1-neoforge-0.15.6.jar"
       ],
       "env": {
-        "client": "optional",
+        "client": "required",
         "server": "optional"
       },
       "fileSize": 431318,
