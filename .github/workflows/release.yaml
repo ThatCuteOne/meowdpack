@@ -25,7 +25,7 @@ jobs:
 
       - name: Update version or generate files
         run: |
-          python3 .github/update-meta.py
+          python3 .github/workflows/update-meta.py
 
       - name: Commit changes
         run: |
