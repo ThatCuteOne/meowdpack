@@ -13,7 +13,7 @@ def main():
             data["versions"].append(
                 {
                     "id": MODPACK_VERSION,
-                    "releasedAt": int(time.time()),
+                    "releasedAt": int(time.time() * 1000),
                     "promotions": {
                         "downloads": {
                             "generic": "https://github.com/ThatCuteOne/meowdpack/releases/latest"

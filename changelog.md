@@ -1,3 +1,4 @@
-# Meow 1.0.0
+# Meow 1.0.1
+### Fix
 
-- initial "release"
+- modupdate mod marked as optional
