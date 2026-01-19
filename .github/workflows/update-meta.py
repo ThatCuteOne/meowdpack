@@ -1,9 +1,11 @@
 import json
+import os
 import time
-
+import shutil
 
 def main():
     MODPACK_VERSION = ""
+    # update meta.json
     with open("pack.json","r") as f:
         data:dict = json.load(f)
         MODPACK_VERSION = data["pack_version"]
@@ -22,5 +24,8 @@ def main():
                 }
             )
             json.dump(data,write_file,indent=2)
+    # move changelog into the right place
+    os.makedirs(f"versions/{MODPACK_VERSION}",exist_ok=True)
+    shutil.copyfile("changelog.md",f"versions/{MODPACK_VERSION}/changelog.txt")
 
 main()
