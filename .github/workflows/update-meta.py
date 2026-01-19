@@ -23,3 +23,4 @@ def main():
             )
             json.dump(data,write_file,indent=2)
 
+main()
