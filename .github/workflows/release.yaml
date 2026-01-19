@@ -1,5 +1,8 @@
 name: Build and Create Release
 
+permissions:
+  contents: write
+
 on:
   push:
     tags:
@@ -17,13 +20,13 @@ jobs:
       id: config
       run: |
         MINECRAFT_VERSION=$(jq -r '.mc_version' pack.json)
-        PACK_VERSION=$(jq -r '.adaptive_version' pack.json)
+        PACK_VERSION=$(jq -r '.pack_version' pack.json)
         echo "MINECRAFT_VERSION=${MINECRAFT_VERSION}" >> $GITHUB_OUTPUT
         echo "PACK_VERSION=${PACK_VERSION}" >> $GITHUB_OUTPUT
     - name: Create ZIP file
       run: |
         python3 build.py
-        ZIP_NAME="Adaptive ${{ steps.config.outputs.PACK_VERSION }}-mc${{steps.config.outputs.MINECRAFT_VERSION}}.mrpack"
+        ZIP_NAME="Meowdpack ${{ steps.config.outputs.PACK_VERSION }}.mrpack"
         echo "ZIP_NAME=${ZIP_NAME}" >> $GITHUB_ENV
         mv adaptive-dev-build.mrpack "$ZIP_NAME"
 
@@ -53,8 +56,8 @@ jobs:
         tag_name: ${{ github.ref }}
         release_name: Release ${{ github.ref }}
         body: |
-          ${{ steps.changelog.outputs.DECODED_CHANGELOG }}
-          Automated release created by GitHub Actions
+          ${{ steps.changelog.outputs.DECODED_CHANGELOG }} \n
+          -# Automated release created by GitHub Actions
         draft: false
         prerelease: false
     - name: Upload Release Artifact
@@ -67,21 +70,11 @@ jobs:
         asset_path: "${{ env.ZIP_NAME }}"
         asset_name: "${{ env.ZIP_NAME }}"
         asset_content_type: application/zip
-    - name: Upload to Modrinth
-      uses: cloudnode-pro/modrinth-publish@v2
-      with:
-        project: g0KbuWXd
-        version: "${{ steps.config.outputs.PACK_VERSION }}-mc${{steps.config.outputs.MINECRAFT_VERSION}}"
-        loaders: '["fabric"]'
-        game-versions: '["${{steps.config.outputs.MINECRAFT_VERSION}}"]'
-        files: '${{ env.ZIP_NAME }}'
-        token: ${{ secrets.MODRINTH}}
-        changelog: ${{ steps.changelog.outputs.DECODED_CHANGELOG }}
     - name: "Actions for Discord"
       env:
         DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         DISCORD_USERNAME: "Adaptive Modpack"
-        DISCORD_AVATAR: https://cdn.modrinth.com/data/g0KbuWXd/64b067140dc5ea5a036165f46441147190aff294_96.webp
+        DISCORD_AVATAR: https://picsum.photos/500/500
         DISCORD_MENTIONS: >-
           {
             "content": "<@&1325601502550818846>",
@@ -92,4 +85,4 @@ jobs:
 
       uses: Ilshidur/action-discord@0.4.0
       with:
-        args: "<@&1325601502550818846>\n${{ steps.changelog.outputs.DECODED_CHANGELOG }}\nDownload: https://modrinth.com/modpack/adaptive/version/${{ steps.config.outputs.PACK_VERSION }}-mc${{steps.config.outputs.MINECRAFT_VERSION}}"
+        args: "${{ steps.changelog.outputs.DECODED_CHANGELOG }}\nDownload: https://github.com/ThatCuteOne/meowdpack/releases/tag/v${{ steps.config.outputs.PACK_VERSION }}"
