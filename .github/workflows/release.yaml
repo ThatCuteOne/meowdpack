@@ -28,7 +28,7 @@ jobs:
         python3 build.py
         ZIP_NAME="Meowdpack ${{ steps.config.outputs.PACK_VERSION }}.mrpack"
         echo "ZIP_NAME=${ZIP_NAME}" >> $GITHUB_ENV
-        mv adaptive-dev-build.mrpack "$ZIP_NAME"
+        mv pack-dev-build.mrpack "$ZIP_NAME"
 
     - name: Upload ZIP artifact
       uses: actions/upload-artifact@v4
@@ -73,7 +73,7 @@ jobs:
     - name: "Actions for Discord"
       env:
         DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-        DISCORD_USERNAME: "Adaptive Modpack"
+        DISCORD_USERNAME: "Meodpack"
         DISCORD_AVATAR: https://picsum.photos/500/500
         DISCORD_MENTIONS: >-
           {
