@@ -23,7 +23,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Update version or generate files
+      - name: Update meta and generate changelog
         run: |
           python3 .github/workflows/update-meta.py
 
@@ -96,7 +96,7 @@ jobs:
     - name: "Actions for Discord"
       env:
         DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-        DISCORD_USERNAME: "Meodpack"
+        DISCORD_USERNAME: "Meowdpack"
         DISCORD_AVATAR: https://picsum.photos/500/500
         DISCORD_MENTIONS: >-
           {

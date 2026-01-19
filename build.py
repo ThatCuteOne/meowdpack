@@ -30,14 +30,14 @@ def build():
         index = json.load(f)
         index['dependencies']['minecraft'] = MINECRAFT_VERSION
         index['dependencies']['neoforge'] = LOADER_VERSION
-        index['versionId'] = VERSION_ID
-        index['name'] = f"Adaptive {VERSION_ID}"
+        index['versionId'] = PACK_VERSION
+        index['name'] = f"Meowdpack {PACK_VERSION}"
         with open('modrinth.index.json','w') as f:
             json.dump(index,f,indent=4)
     # set Mod updater config data from pack.json
     with open('overrides/config/modpack-update-checker/config.json') as f:
         data = json.load(f)
-        data['currentVersion'] = VERSION_ID
+        data['currentVersion'] = PACK_VERSION
         data['display_version'] = f"v{PACK_VERSION}"
         with open('overrides/config/modpack-update-checker/config.json','w') as f:
             json.dump(data,f,indent=4)
