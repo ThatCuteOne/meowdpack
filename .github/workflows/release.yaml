@@ -1,0 +1,95 @@
+name: Build and Create Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    - name: Read Pack Config
+      id: config
+      run: |
+        MINECRAFT_VERSION=$(jq -r '.mc_version' pack.json)
+        PACK_VERSION=$(jq -r '.adaptive_version' pack.json)
+        echo "MINECRAFT_VERSION=${MINECRAFT_VERSION}" >> $GITHUB_OUTPUT
+        echo "PACK_VERSION=${PACK_VERSION}" >> $GITHUB_OUTPUT
+    - name: Create ZIP file
+      run: |
+        python3 build.py
+        ZIP_NAME="Adaptive ${{ steps.config.outputs.PACK_VERSION }}-mc${{steps.config.outputs.MINECRAFT_VERSION}}.mrpack"
+        echo "ZIP_NAME=${ZIP_NAME}" >> $GITHUB_ENV
+        mv adaptive-dev-build.mrpack "$ZIP_NAME"
+
+    - name: Upload ZIP artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: resource-pack-artifact
+        path: ${{ env.ZIP_NAME }}
+        
+    - name: Read changelog file
+      id: changelog
+      run: |
+        # Decode GitHub-encoded newlines
+        CHANGELOG=$(cat changelog.md)
+        CHANGELOG="${CHANGELOG//'%0A'/$'\n'}"
+        CHANGELOG="${CHANGELOG//'%0D'/$'\r'}"
+        CHANGELOG="${CHANGELOG//'%25'/'%'}"
+        echo "DECODED_CHANGELOG<<EOF" >> $GITHUB_OUTPUT
+        echo "$CHANGELOG" >> $GITHUB_OUTPUT
+        echo "EOF" >> $GITHUB_OUTPUT
+    - name: Create Release
+      id: create_release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{ github.ref }}
+        release_name: Release ${{ github.ref }}
+        body: |
+          ${{ steps.changelog.outputs.DECODED_CHANGELOG }}
+          Automated release created by GitHub Actions
+        draft: false
+        prerelease: false
+    - name: Upload Release Artifact
+      id: upload-release-asset
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: "${{ env.ZIP_NAME }}"
+        asset_name: "${{ env.ZIP_NAME }}"
+        asset_content_type: application/zip
+    - name: Upload to Modrinth
+      uses: cloudnode-pro/modrinth-publish@v2
+      with:
+        project: g0KbuWXd
+        version: "${{ steps.config.outputs.PACK_VERSION }}-mc${{steps.config.outputs.MINECRAFT_VERSION}}"
+        loaders: '["fabric"]'
+        game-versions: '["${{steps.config.outputs.MINECRAFT_VERSION}}"]'
+        files: '${{ env.ZIP_NAME }}'
+        token: ${{ secrets.MODRINTH}}
+        changelog: ${{ steps.changelog.outputs.DECODED_CHANGELOG }}
+    - name: "Actions for Discord"
+      env:
+        DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        DISCORD_USERNAME: "Adaptive Modpack"
+        DISCORD_AVATAR: https://cdn.modrinth.com/data/g0KbuWXd/64b067140dc5ea5a036165f46441147190aff294_96.webp
+        DISCORD_MENTIONS: >-
+          {
+            "content": "<@&1325601502550818846>",
+            "allowed_mentions": {
+              "roles": ["1325601502550818846"]
+            }
+          }
+
+      uses: Ilshidur/action-discord@0.4.0
+      with:
+        args: "<@&1325601502550818846>\n${{ steps.changelog.outputs.DECODED_CHANGELOG }}\nDownload: https://modrinth.com/modpack/adaptive/version/${{ steps.config.outputs.PACK_VERSION }}-mc${{steps.config.outputs.MINECRAFT_VERSION}}"
