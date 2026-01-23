@@ -19,6 +19,15 @@
           "generic": "https://github.com/ThatCuteOne/meowdpack/releases/latest"
         }
       }
+    },
+    {
+      "id": "1.1.1",
+      "releasedAt": 1769206675831,
+      "promotions": {
+        "downloads": {
+          "generic": "https://github.com/ThatCuteOne/meowdpack/releases/latest"
+        }
+      }
     }
   ]
 }
