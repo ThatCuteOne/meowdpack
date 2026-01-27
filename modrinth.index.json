@@ -1431,21 +1431,6 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/2MOibNr5/versions/oY2IMo0v/random_oddities-1.0.0.jar"
-      ],
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "fileSize": 209860,
-      "hashes": {
-        "sha1": "fe3c36716c9e2e97bd6b0b1203d67edd1f31695d",
-        "sha512": "d8b35bb25e99319429063fc2fdf8cf28e61f5b8a1f32ee1ae7c7440c2ff086e6c698d800c369f4fb6fbfb0ce1daeb5b7f424e1289b185ed9fe6706cb892f6f1e"
-      },
-      "path": "mods/random_oddities-1.0.0.jar"
-    },
-    {
-      "downloads": [
         "https://cdn.modrinth.com/data/JXWP1nuv/versions/WsT718mv/drop_force-1.21.1-neoforge-1.0.0.jar"
       ],
       "env": {
