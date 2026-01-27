@@ -1,4 +1,10 @@
 # Meow 1.1.1
-### Fix
-
-- **remove-pipez**: fix pipez
+### Additions
+- Darling Decorations!
+- Enderwoman mod
+- Random Oddities
+- Drop force
+- Hazelia
+- missy's paintings
+- Missing Texture Block
+- Kiss mod

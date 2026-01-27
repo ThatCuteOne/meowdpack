@@ -1398,6 +1398,126 @@
         "sha512": "b5d5d9ec5955d24ee676330a0cb9852b1c26b47980ab3dcc56fb7d2d6c5b16bd0471555a781833edd45bc892cc9af5c45f989a3760ce46b25a4cc39215e35c08"
       },
       "path": "mods/modpack-update-checker-1.21.1-neoforge-0.15.6.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/5zwEL5vZ/versions/mbEKE0uZ/darlingdecorations-1.0.0-neoforge-1.21.1.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "fileSize": 666846,
+      "hashes": {
+        "sha1": "c5814fa341a837aae07458ee398b1a0e86c91f24",
+        "sha512": "87d2e6eacf6ad7cabb3042d0359134d628ce4be085cc125fcd2a7c7856a798f5fdfcecb1f2f4882a56f9be0de13e0ef5dcc03aa354ea6e035b04eea1473ea409"
+      },
+      "path": "mods/darlingdecorations-1.0.0-neoforge-1.21.1.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/Yql9Kinz/versions/IrtF8Pjy/enderwoman-0.9.9.2.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "fileSize": 458376,
+      "hashes": {
+        "sha1": "59dbbe4907ba015add89926193c6b9a86ff279b4",
+        "sha512": "b0d0d19d7547ce12117ca2f2f3a8965ad5a8d24294c46af22b2ba78f21e7d0c700d459a365e7f8e6eb82248112bbaa8e334ad3e525a94aefd9bbceb7f319ab52"
+      },
+      "path": "mods/enderwoman-0.9.9.2.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/2MOibNr5/versions/oY2IMo0v/random_oddities-1.0.0.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "fileSize": 209860,
+      "hashes": {
+        "sha1": "fe3c36716c9e2e97bd6b0b1203d67edd1f31695d",
+        "sha512": "d8b35bb25e99319429063fc2fdf8cf28e61f5b8a1f32ee1ae7c7440c2ff086e6c698d800c369f4fb6fbfb0ce1daeb5b7f424e1289b185ed9fe6706cb892f6f1e"
+      },
+      "path": "mods/random_oddities-1.0.0.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/JXWP1nuv/versions/WsT718mv/drop_force-1.21.1-neoforge-1.0.0.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "fileSize": 6188,
+      "hashes": {
+        "sha1": "3af727bb7021e79005abddfee529501cf5f43a40",
+        "sha512": "b620a8653be3eaca62062c725e7aec789395b2af31d0a22ddffeb3a067160af9a050c7757eedd67bb7c5d69eb26ef2e32f6e430bb9e8b8f75326ec4475eda85e"
+      },
+      "path": "mods/drop_force-1.21.1-neoforge-1.0.0.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/cM8jMae0/versions/tmmbUsZw/hazelia-1.2.1-neoforge-1.21.1.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "fileSize": 3886725,
+      "hashes": {
+        "sha1": "d7862b5bc7a840551f25786c963b2e8c4816e6c1",
+        "sha512": "4e1222ea99b0e1853fc1afb1487b47a7a00f1ff901cd61f2f7a11bb637703d1d2b93fc1742a6976a1964e09d482e76bc92cfbde5232a5dbae22c902a5c1792c9"
+      },
+      "path": "mods/hazelia-1.2.1-neoforge-1.21.1.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/63uLWQvU/versions/l9bi5quo/missy-paintings-1.21%2B.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "fileSize": 91298,
+      "hashes": {
+        "sha1": "8456537a30d1ae341df43e869c3e3f813916c0c8",
+        "sha512": "400f65de9a2ec1da2fcf1457a37cf265c3df4bfe7dc79e1b11eef108504819f01cb321666d96d7dbec1ac8171b718197ad504e1e472ba2b08c690659c40179cb"
+      },
+      "path": "mods/missy-paintings-1.21+.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/62PGixYv/versions/Xcw5TehG/missingtextureblock-1.21.1-0.1.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "fileSize": 60219,
+      "hashes": {
+        "sha1": "d5eb962e1bf68e0f1b7bb76d8af9869943b08ec7",
+        "sha512": "35333122b8069e056872e077e805e2d0b9b4c2c380419d11a2a88d76e07db308831065cfa5499242ac83533282a9f96381c7adf7250578fb731576cdd1f7c0eb"
+      },
+      "path": "mods/missingtextureblock-1.21.1-0.1.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/625eK1Si/versions/plUmdfHo/kissmod-1.2.0.jar"
+      ],
+      "env": {
+        "client": "unsupported",
+        "server": "required"
+      },
+      "fileSize": 13860,
+      "hashes": {
+        "sha1": "0f827f73783abc6fbf7e540a0d8fd8838e819a0d",
+        "sha512": "0ae156a078011b6af97732203c060831114d958f8e0b080df7d74b1e181302f188b09420bb9ea8f65bd03df1e0f88c8d1ba5470153eaa01a7031f70d7d88e1f1"
+      },
+      "path": "mods/kissmod-1.2.0.jar"
     }
   ],
   "formatVersion": 1,
