@@ -35,22 +35,22 @@ def build():
         with open('modrinth.index.json','w') as f:
             json.dump(index,f,indent=4)
     # set Mod updater config data from pack.json
-    with open('overrides/config/modpack-update-checker/config.json') as f:
-        data = json.load(f)
-        data['currentVersion'] = PACK_VERSION
-        data['display_version'] = f"v{PACK_VERSION}"
-        with open('overrides/config/modpack-update-checker/config.json','w') as f:
-            json.dump(data,f,indent=4)
+    # with open('overrides/config/modpack-update-checker/config.json') as f:
+    #     data = json.load(f)
+    #     data['currentVersion'] = PACK_VERSION
+    #     data['display_version'] = f"v{PACK_VERSION}"
+    #     with open('overrides/config/modpack-update-checker/config.json','w') as f:
+    #         json.dump(data,f,indent=4)
     
 
     # Create new zip file
     with zipfile.ZipFile("../pack-dev-build.mrpack", "w", zipfile.ZIP_DEFLATED) as zipf:
         # Add overrides directory
-        for root, dirs, files in os.walk("./overrides"):
-            for file in files:
-                file_path = os.path.join(root, file)
-                arcname = os.path.relpath(file_path, start=".")
-                zipf.write(file_path, arcname)
+        # for root, dirs, files in os.walk("./overrides"):
+        #     for file in files:
+        #         file_path = os.path.join(root, file)
+        #         arcname = os.path.relpath(file_path, start=".")
+        #         zipf.write(file_path, arcname)
         
         # Add modrinth.index.json
         if os.path.exists("modrinth.index.json"):
