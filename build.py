@@ -19,7 +19,7 @@ def setup_build_env():
     if os.path.exists("./.build"):
         shutil.rmtree("./.build")
     os.mkdir('.build')
-    shutil.copytree('./overrides', './.build/overrides')
+    # shutil.copytree('./overrides', './.build/overrides')
     shutil.copy('modrinth.index.json','./.build/')
     os.chdir("./.build")
 
