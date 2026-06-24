@@ -9,29 +9,6 @@ on:
       - 'v*'
 
 jobs:
-  update-meta:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 0
-
-      - name: Configure Git
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-      - name: Update meta and generate changelog
-        run: |
-          python3 .github/workflows/update-meta.py
-
-      - name: Commit changes
-        run: |
-          git add .
-          git commit -m "chore: update meta.json"
-          git push origin HEAD:master
   build-and-release:
     runs-on: ubuntu-latest
     steps:
