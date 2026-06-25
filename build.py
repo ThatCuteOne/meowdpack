@@ -46,11 +46,11 @@ def build():
     # Create new zip file
     with zipfile.ZipFile("../pack-dev-build.mrpack", "w", zipfile.ZIP_DEFLATED) as zipf:
         # Add overrides directory
-        # for root, dirs, files in os.walk("./overrides"):
-        #     for file in files:
-        #         file_path = os.path.join(root, file)
-        #         arcname = os.path.relpath(file_path, start=".")
-        #         zipf.write(file_path, arcname)
+        for root, dirs, files in os.walk("./overrides"):
+            for file in files:
+                file_path = os.path.join(root, file)
+                arcname = os.path.relpath(file_path, start=".")
+                zipf.write(file_path, arcname)
         
         # Add modrinth.index.json
         if os.path.exists("modrinth.index.json"):

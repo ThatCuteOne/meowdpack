@@ -711,21 +711,6 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/SyeMNICo/versions/lL29fVqU/gladius-0.2.1.jar"
-      ],
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "fileSize": 1383822,
-      "hashes": {
-        "sha1": "8d53df363fb262f447cc777bb135ee6b1150400b",
-        "sha512": "903b20cc93b9e13eb3704c3320557b2fba1d26e1effe2a9ad8b431b5106afcdd6ad3e88a11ec80beb3393d12335bcebcb1e31857e1eaf5994f14ddd8094dc35c"
-      },
-      "path": "mods/gladius-0.2.1.jar"
-    },
-    {
-      "downloads": [
         "https://cdn.modrinth.com/data/OXgFNi7B/versions/m4wyo3OW/googlemod-1.2.0-neoforge-1.21.1.jar"
       ],
       "env": {
