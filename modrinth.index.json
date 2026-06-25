@@ -906,21 +906,6 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/PWNPIcRq/versions/JN2VT59L/oceastra_broom-0.1.2-alpha.jar"
-      ],
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "fileSize": 187942,
-      "hashes": {
-        "sha1": "f99216d73ab14118fc87600a413cf42d1c09bc79",
-        "sha512": "087e20d151c4e8490f53302956aadd9f0fba5ca189e9ed58843b230927f85281815515cf70f79632c735b61d273d793ab69308050e598453116ea895847510dc"
-      },
-      "path": "mods/oceastra_broom-0.1.2-alpha.jar"
-    },
-    {
-      "downloads": [
         "https://cdn.modrinth.com/data/m2HPONcc/versions/uwBghLas/orbital_railgun-1.2.0%2Bmc1.21.1.jar"
       ],
       "env": {
