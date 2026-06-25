@@ -51,18 +51,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/pSUU4Yp7/versions/uvJWLvrr/MobileNetworks-2.0.1.jar"
+        "https://cdn.modrinth.com/data/pSUU4Yp7/versions/VJRYkRlN/MobileNetworks-2.0.2.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 116214,
+      "fileSize": 162903,
       "hashes": {
-        "sha1": "9b9f04d6c1d72001d1d02a216e578a0d231f2830",
-        "sha512": "9454d370d145a7d5fca0bba30fad41aa2de5fd4bcff4a878f574a29fb3139e26463fb8881e09983cf829ff95c9e5909ce300caea387b8f7f2eaec0cb44f8aa15"
+        "sha1": "4b903666517ba4c9ae39bc1626e9f2fa90746ed6",
+        "sha512": "a8e29af80e365dc48c82c7596770bf0bba0dadd2ced3bee0b08629de2f7b93139b0b1e2fca7e4423426967375d852bdf1929b84d9c90548f1310fefe5cb661d7"
       },
-      "path": "mods/MobileNetworks-2.0.1.jar"
+      "path": "mods/MobileNetworks-2.0.2.jar"
     },
     {
       "downloads": [
@@ -576,18 +576,18 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/7U7cL6TX/versions/3aV5x2Xb/femboy_things-1.0.1.2-neoforge-1.21.1.jar"
+        "https://cdn.modrinth.com/data/7U7cL6TX/versions/o0ZgfnoO/femboy_things-1.1b-neoforge-1.21.12.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 3023523,
+      "fileSize": 3061548,
       "hashes": {
-        "sha1": "bf6d304c63d0f3d2aa6dc7b1199770af68c1d6fa",
-        "sha512": "bbf123833f65b97afb735cd96140dc0b28d27dee96e712a179ce14ce5a5633a40c744af7c24c72c46e344701da19754d6d55d609e71418bbab9617f61e3fa950"
+        "sha1": "f673c1cf21380d9ea0d7199e7d00ed8e54cc9013",
+        "sha512": "a0e9435e5da0e271d4cbf9b157080407770a6e995c021d14813dfbf80c26ed0bb75c270ee9d8810581578d67cbf680b2108e3c817e16a570d0a567331a9050ce"
       },
-      "path": "mods/femboy_things-1.0.1.2-neoforge-1.21.1.jar"
+      "path": "mods/femboy_things-1.1b-neoforge-1.21.12.jar"
     },
     {
       "downloads": [
@@ -816,16 +816,16 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/ZVwL52xp/versions/NLbg1UB8/justsomeclothes-1.0.jar"
+        "https://cdn.modrinth.com/data/ZVwL52xp/versions/hQYRZvAS/justsomeclothes-1.0.jar"
       ],
       "env": {
         "client": "required",
         "server": "required"
       },
-      "fileSize": 504345,
+      "fileSize": 504382,
       "hashes": {
-        "sha1": "e6961d598d7960efb76e4164892c4eb1af0b7c12",
-        "sha512": "8f28f655e4876c45d49c47faa653112bc2820b87a85adbca4519d9fb2aa7fce0ea78a4a69a0eb06ca7009bd5064a9931a97e89a30de56de7aaf96e4cfff88fe6"
+        "sha1": "1a0dd08e0e57bf8c32ecedee372baf4897e72d31",
+        "sha512": "43636576cc7c07b15e46a1754bc399e52087975000fe013eb25fa5c622125dbf1c5c44013e183d4e8bb33479c77b83941ec84b5fdaa90209accef0c70bf67a43"
       },
       "path": "mods/justsomeclothes-1.0.jar"
     },
@@ -1161,33 +1161,33 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/PtjYWJkn/versions/pFmw1eci/sodium-extra-neoforge-0.6.0%2Bmc1.21.1.jar"
+        "https://cdn.modrinth.com/data/PtjYWJkn/versions/hXez7Tlk/sodium-extra-neoforge-0.8.7%2Bmc1.21.1.jar"
       ],
       "env": {
         "client": "required",
         "server": "unsupported"
       },
-      "fileSize": 367047,
+      "fileSize": 397562,
       "hashes": {
-        "sha1": "7473bb42753902c639294821af13e9cd9ee735da",
-        "sha512": "6f7383ef3f4b572c76d3371a7441bc3d625db9d404cf61b249fab018bc3ffd1fa82e735ec21916df3f4072f0927dad3673efbc40bf8d11846c3d6fecc9329bb7"
+        "sha1": "5f17ccb47f77d498c36d3179c8ca3f320a7f50e3",
+        "sha512": "e70bfbc8b5595bb39371d3ba318ecc6292fa0acd6f3450f90a2fdd34e0cb80b4516287eedb7d0c08d0ae42938ac40c84b194e6315d085dc4a254221083819fff"
       },
-      "path": "mods/sodium-extra-neoforge-0.6.0+mc1.21.1.jar"
+      "path": "mods/sodium-extra-neoforge-0.8.7+mc1.21.1.jar"
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/AANobbMI/versions/Pb3OXVqC/sodium-neoforge-0.6.13%2Bmc1.21.1.jar"
+        "https://cdn.modrinth.com/data/AANobbMI/versions/7XOIgnrf/sodium-neoforge-0.8.12-beta.2%2Bmc1.21.1.jar"
       ],
       "env": {
         "client": "required",
         "server": "unsupported"
       },
-      "fileSize": 1162994,
+      "fileSize": 1291421,
       "hashes": {
-        "sha1": "38af70fa4dc4b2aaac636e92fdba3bedd5a025e1",
-        "sha512": "ce58f34d05d96c0a109a5cea23c741f6bdb2e6be31fc087c5989274cefca5f10ba0c08c62083cf554a51f2c7667bf46e4164383f675c844e77633aef2659996b"
+        "sha1": "2b4da8def3970f56e021a1f5109517cd83a4fe84",
+        "sha512": "62242a3b7a8f1c564fd267e0dce71e587d8615083b8da69c3bb585eb93d0f6590d8df231104c4dca1c64c513e5d73b56661930af9c88d7ac869afe792996631f"
       },
-      "path": "mods/sodium-neoforge-0.6.13+mc1.21.1.jar"
+      "path": "mods/sodium-neoforge-0.8.12-beta.2+mc1.21.1.jar"
     },
     {
       "downloads": [
