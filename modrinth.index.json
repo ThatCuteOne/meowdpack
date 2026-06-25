@@ -351,36 +351,6 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/u58R1TMW/versions/1i8teo7m/connector-2.0.0-beta.14%2B1.21.1-full.jar"
-      ],
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "fileSize": 4526785,
-      "hashes": {
-        "sha1": "930067497b5c1249e51b3e33620ab4e72dc92f4c",
-        "sha512": "6ed3168c2c7dad2606ada1fdf63ee412bb8bb5620718a702f6ac51310e671f2f93ab46fc96400e258f4433e51b96f9dd21441e1a8963d8b356c75b578e156dcc"
-      },
-      "path": "mods/connector-2.0.0-beta.14+1.21.1-full.jar"
-    },
-    {
-      "downloads": [
-        "https://cdn.modrinth.com/data/1IjD5062/versions/eXGUs5sy/continuity-3.0.0%2B1.21.neoforge.jar"
-      ],
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "fileSize": 1014626,
-      "hashes": {
-        "sha1": "0aecd2d043ac25299254623fafdd9129ab2ba9c2",
-        "sha512": "320b6def6073ce0ffc0ce2bd7cdb66324467ea3e7cec05508f32d78f65c60ff3e155394b94c60f62e059404ec0ca3fc6112987a5764a8f85241d3026a2ee4935"
-      },
-      "path": "mods/continuity-3.0.0+1.21.neoforge.jar"
-    },
-    {
-      "downloads": [
         "https://cdn.modrinth.com/data/LNytGWDc/versions/UjX6dr61/create-1.21.1-6.0.10.jar"
       ],
       "env": {
