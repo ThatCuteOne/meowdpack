@@ -876,21 +876,6 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/BuEI7nJs/versions/Q6lfAviz/nether_portal_remastered-1.1.2-neoforge-1.21.1.jar"
-      ],
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "fileSize": 178313,
-      "hashes": {
-        "sha1": "799647c56774ae3f47e39cca0024e625d738f473",
-        "sha512": "73f4098066c698623af1664303efac5bb85260f24fd257ac583eaecdfc6b241cc68ee4e79645d9f76732e7bd83e0e5e3ae00f9f983bbc89295f65a33bd56ae7a"
-      },
-      "path": "mods/nether_portal_remastered-1.1.2-neoforge-1.21.1.jar"
-    },
-    {
-      "downloads": [
         "https://cdn.modrinth.com/data/u4gWDN4j/versions/7PoEaHH1/oathboundrelics-1.7.0-1.21.1.jar"
       ],
       "env": {
