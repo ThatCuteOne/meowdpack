@@ -306,21 +306,6 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/qtPMklut/versions/IRvrqB67/c2me-neoforge-opts-accel-opencl-mc1.21.1-0.4.0-alpha.0.111.jar"
-      ],
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "fileSize": 2983574,
-      "hashes": {
-        "sha1": "f1a5466e67bd0ca97ee8a6165c9d382d61eca0d4",
-        "sha512": "298365afde4ba465d6f74597c5dc8159f279db734d8e2a1517c034024a538236dc17168d176c9f57097a6dbd92f880f4c28fbc3a7fb61dca445dc7f662fd29bb"
-      },
-      "path": "mods/c2me-neoforge-opts-accel-opencl-mc1.21.1-0.4.0-alpha.0.111.jar"
-    },
-    {
-      "downloads": [
         "https://cdn.modrinth.com/data/fRwHD6nq/versions/wV6TA8Zp/catears-1.0.0.jar"
       ],
       "env": {
