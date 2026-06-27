@@ -132,7 +132,7 @@ async def get_modpack_version():
     with open("pack.json","r") as f:
         filejson:dict = json.load(f)
         f.close()
-        return f"{filejson.get("adaptive_version")}-mc{filejson.get("mc_version")}"
+        return f"{filejson.get("pack_version")}-mc{filejson.get("mc_version")}"
 
 
 @dataclass
@@ -155,7 +155,7 @@ class changeLog:
         with open("changelog.md", "w") as changelogfile:
             parts = []
 
-            parts.append(f"# Adaptive {modpack_version}\n")
+            parts.append(f"# Meowdpack {modpack_version}\n")
 
             if dev_notes:
                 parts.append("### Dev Notes\n")
