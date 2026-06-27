@@ -1,2 +1,8 @@
-update mods
-remove exposure_space due to crash on deticated server
+# Adaptive None-mc1.21.1
+### Dev Notes
+nyraow the mod was annoying
+### New Mods! 
+- ➕️ Yeetus Experimentus
+
+### Removed Mods 🗑️
+- 🗑️ Mobile Networks

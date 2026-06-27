@@ -332,7 +332,7 @@ async def generate_changelog():
         )
     async def get_latest_tag() -> str:
         github_data: dict = await api_request(
-            "https://api.github.com/repos/thatcuteone/adaptive/releases/latest"
+            "https://api.github.com/repos/thatcuteone/meowdpack/releases/latest"
             )
         if not github_data: 
             return
@@ -341,7 +341,7 @@ async def generate_changelog():
     async def get_old_mods() -> list[modEntry]:
         git_tag = await get_latest_tag()
         mod_data = await api_request(
-            f"https://raw.githubusercontent.com/ThatCuteOne/adaptive/refs/tags/{git_tag}/modrinth.index.json"
+            f"https://raw.githubusercontent.com/ThatCuteOne/meowdpack/refs/tags/{git_tag}/modrinth.index.json"
             )
         return convert_files(mod_data.get("files"))
 

@@ -51,21 +51,6 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/pSUU4Yp7/versions/VJRYkRlN/MobileNetworks-2.0.2.jar"
-      ],
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "fileSize": 162903,
-      "hashes": {
-        "sha1": "4b903666517ba4c9ae39bc1626e9f2fa90746ed6",
-        "sha512": "a8e29af80e365dc48c82c7596770bf0bba0dadd2ced3bee0b08629de2f7b93139b0b1e2fca7e4423426967375d852bdf1929b84d9c90548f1310fefe5cb661d7"
-      },
-      "path": "mods/MobileNetworks-2.0.2.jar"
-    },
-    {
-      "downloads": [
         "https://cdn.modrinth.com/data/31TqAmXC/versions/NTKPm1J1/Mod%20Menu%20%28NeoForge%20Edition%29%201.21.1-1.0.2.jar"
       ],
       "env": {
@@ -1278,6 +1263,36 @@
         "sha512": "20a93923c1f257094899d3151eecea002d994a70d6e305d932c003a2f3ca09f93f7655b69a27707b119fc217bf9316b19cbdbe64b785e8686463202dcfcffea9"
       },
       "path": "mods/warriors-0.0.1-neoforge-1.21.1.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/HaaH232J/versions/Pp0TjcvD/yeetusexperimentus-neoforge-87.0.0.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 570057,
+      "hashes": {
+        "sha1": "7132c346103d75a7c84da64b35b92e3a6f1ce3da",
+        "sha512": "cc2dc46dcaa0424c820cb7931fd2ceb3826669934189c011fd1ebd5692cdf7652c725034abec2828bfea2238c9615d6f9c36e3e01e21fc9eb44551eb51e06fe3"
+      },
+      "path": "mods/yeetusexperimentus-neoforge-87.0.0.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/dw7LChq9/versions/4AbDTwoo/PatPat-1.2.4%2B1.21.1%2Bneoforge.jar"
+      ],
+      "env": {
+        "client": "unknown",
+        "server": "unknown"
+      },
+      "fileSize": 1181725,
+      "hashes": {
+        "sha1": "8966f991f98021a8e9798724c50c6bf33197dde1",
+        "sha512": "ab8c52e0c13e5090c2ec9e3bbc453f8ddde0c791e2732438d404f6240e9c52bc160619b2edac04da6f00f4e0ea868dc370c711885b8e0806204e55d39dc099ba"
+      },
+      "path": "mods/PatPat-1.2.4+1.21.1+neoforge.jar"
     }
   ],
   "formatVersion": 1,

@@ -40,6 +40,7 @@ jobs:
       id: changelog
       run: |
         # Decode GitHub-encoded newlines
+        python3 modmanager.py -c
         CHANGELOG=$(cat changelog.md)
         CHANGELOG="${CHANGELOG//'%0A'/$'\n'}"
         CHANGELOG="${CHANGELOG//'%0D'/$'\r'}"
