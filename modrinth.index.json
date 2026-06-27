@@ -1293,6 +1293,21 @@
         "sha512": "056964d19ba7fc53835eab8132e21ba7d04c3f2d6739e6d13f5ca5ec98a1cf5dcaef3ba9205397bce80c187ac9685e5095011121c17252bce06cffabc1f5cd9e"
       },
       "path": "mods/hotkettles-neoforge-1.2.1+mc1.21.1.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/EAInazAL/versions/Qpo3NJVM/dragonscalemod-2.0-1.21.1.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "fileSize": 68959,
+      "hashes": {
+        "sha1": "aad30aa9e023ead592196091e631e6bc14ba1c12",
+        "sha512": "2daf6b3c362838dacccef802a2220ee638500ff6488f936de0ac870c748a4ed2a8d848f70756f5b3e9c825579298ebe592d763ce374fbf9a2d84e07f25757a9a"
+      },
+      "path": "mods/dragonscalemod-2.0-1.21.1.jar"
     }
   ],
   "formatVersion": 1,
