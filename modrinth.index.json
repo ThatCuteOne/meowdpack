@@ -1236,21 +1236,6 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/bryvVTnN/versions/m3BVbvrv/warriors-0.0.1-neoforge-1.21.1.jar"
-      ],
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "fileSize": 51063,
-      "hashes": {
-        "sha1": "63ee0a8ab3b60d2dbbfa55a30a9a20d253e7ab98",
-        "sha512": "20a93923c1f257094899d3151eecea002d994a70d6e305d932c003a2f3ca09f93f7655b69a27707b119fc217bf9316b19cbdbe64b785e8686463202dcfcffea9"
-      },
-      "path": "mods/warriors-0.0.1-neoforge-1.21.1.jar"
-    },
-    {
-      "downloads": [
         "https://cdn.modrinth.com/data/HaaH232J/versions/Pp0TjcvD/yeetusexperimentus-neoforge-87.0.0.jar"
       ],
       "env": {
