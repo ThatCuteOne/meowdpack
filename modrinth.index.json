@@ -411,21 +411,6 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/qshfE0b1/versions/c7Tf27Ne/dynamicdisasters-1.0.0.jar"
-      ],
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "fileSize": 52482,
-      "hashes": {
-        "sha1": "37a7eb9fb0b1e6caa5cba79e870acc9ab431b3d4",
-        "sha512": "91d9bf7b2aecf35c51fbb10bc889e5cd50226deb9f3dbd6d0927df0669c4e327ffae32a70e158049db93c7c77741fdb44f26ce8b3cd3654f567aaa77461a6a3f"
-      },
-      "path": "mods/dynamicdisasters-1.0.0.jar"
-    },
-    {
-      "downloads": [
         "https://cdn.modrinth.com/data/zS8uflwP/versions/TeJuB2pV/easegui-0.1.0-neoforge-1.21.1.jar"
       ],
       "env": {
@@ -438,21 +423,6 @@
         "sha512": "d0aa37de73ba0c9235a16318289acbc1e7565ab504c3192a3d55c346784a46809c6bad71b7cdc731b3ac4ece99d74d5967a22397ffc5ab506d2005728033148e"
       },
       "path": "mods/easegui-0.1.0-neoforge-1.21.1.jar"
-    },
-    {
-      "downloads": [
-        "https://cdn.modrinth.com/data/O8ud4Tdq/versions/aH1b62IL/eminemmod-0.6.0-neoforge-1.21.1.jar"
-      ],
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "fileSize": 1900991,
-      "hashes": {
-        "sha1": "1bffd3f28c8e6facbfe60c973a43fb81b4c10a3a",
-        "sha512": "e08c81cf7b84ae4d5d9fe179c118d06637051cbbc170abacb2788809bcd3ac8de518bb1b4d0bca5cafbe93235acb5c89560b58e3f6488196bb7d2c1d92915615"
-      },
-      "path": "mods/eminemmod-0.6.0-neoforge-1.21.1.jar"
     },
     {
       "downloads": [
@@ -1278,6 +1248,36 @@
         "sha512": "99b39ffaaa04c0332602174c4b65445b3defdc6db1dc0a881b7c4bcd477734994d41d9a74bc5dc7066f8feeddc5075f62f926eb3ecabad135c7d381181ada1a9"
       },
       "path": "mods/better_modlist-1.1.22.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/qIWoLcKJ/versions/3OXsfueJ/NeoForge-projectatmosphere-0.8.1.0.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "fileSize": 13004001,
+      "hashes": {
+        "sha1": "e33c2ec52f31ef93fd51161d93f0761988ffe282",
+        "sha512": "9a52e79f7b087a766ee7e1c70a340c3b8aa4d5a2077318c4a4cbe09a1458cc917bf58cb323c23a7be3ed98c8b4044fc09e0be4d1a4914faea6bc5aace7922d01"
+      },
+      "path": "mods/NeoForge-projectatmosphere-0.8.1.0.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/VBy0B3ST/versions/Yk54k0He/fancyweather-neoforge-1.21.1-1.1.0.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "fileSize": 35452,
+      "hashes": {
+        "sha1": "d06993ee8340dbefcb8e3526607949f93eda1d35",
+        "sha512": "8d1ee4185e8a835c1fcc6b5cff5396ff5511f5f4887bdcfa7bfc3b1116ac2d4a5c355959f0b6279de528e3b6c763bd2747f7bb6c67ebd65fd33340520efbb588"
+      },
+      "path": "mods/fancyweather-neoforge-1.21.1-1.1.0.jar"
     }
   ],
   "formatVersion": 1,
