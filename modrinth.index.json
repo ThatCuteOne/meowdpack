@@ -51,21 +51,6 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/31TqAmXC/versions/NTKPm1J1/Mod%20Menu%20%28NeoForge%20Edition%29%201.21.1-1.0.2.jar"
-      ],
-      "env": {
-        "client": "required",
-        "server": "unsupported"
-      },
-      "fileSize": 933248,
-      "hashes": {
-        "sha1": "075a0d5f30d1228f998e50c79e703bbd3037a836",
-        "sha512": "3e0c71897dded3fe16dda8d65987f1c9af8d66721d41ceb4eac30e1ff655e93ddfd795652ec17cf71778c08c86edd8adccbdd072530e9e50e85041d7a7857580"
-      },
-      "path": "mods/Mod Menu (NeoForge Edition) 1.21.1-1.0.2.jar"
-    },
-    {
-      "downloads": [
         "https://cdn.modrinth.com/data/Gov5Dboq/versions/zI1AzXFg/Modern-Industrialization-2.4.3.jar"
       ],
       "env": {
@@ -1293,6 +1278,21 @@
         "sha512": "ab8c52e0c13e5090c2ec9e3bbc453f8ddde0c791e2732438d404f6240e9c52bc160619b2edac04da6f00f4e0ea868dc370c711885b8e0806204e55d39dc099ba"
       },
       "path": "mods/PatPat-1.2.4+1.21.1+neoforge.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/sbpqhzIG/versions/XlCN7NWa/better_modlist-1.1.22.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 805721,
+      "hashes": {
+        "sha1": "c5c49876cf0e036c631b0909fed6903d7e28cc45",
+        "sha512": "99b39ffaaa04c0332602174c4b65445b3defdc6db1dc0a881b7c4bcd477734994d41d9a74bc5dc7066f8feeddc5075f62f926eb3ecabad135c7d381181ada1a9"
+      },
+      "path": "mods/better_modlist-1.1.22.jar"
     }
   ],
   "formatVersion": 1,
