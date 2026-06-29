@@ -156,21 +156,6 @@
     },
     {
       "downloads": [
-        "https://cdn.modrinth.com/data/EsAfCjCV/versions/uAKA6Laj/appleskin-neoforge-mc1.21-3.0.9.jar"
-      ],
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "fileSize": 75804,
-      "hashes": {
-        "sha1": "81cf0e668f991f83ac8820c386fbd6c9c3602246",
-        "sha512": "f4ea46273e407334b63e262e2555c9a8204f7b5e60f23f272fbaa83ad9e88800e0ee186aca840710df2dbe0a18b37758695fef2ae1a902c10b3706e3de772937"
-      },
-      "path": "mods/appleskin-neoforge-mc1.21-3.0.9.jar"
-    },
-    {
-      "downloads": [
         "https://cdn.modrinth.com/data/lhGA9TYQ/versions/ZxYGwlk0/architectury-13.0.8-neoforge.jar"
       ],
       "env": {
@@ -1488,21 +1473,6 @@
         "sha512": "eceec5e1fb66b6b510be4dd567dd88878ce022c8b18e1b50a78da3abdce27386ed0d54eb84128ad450e2eba985e3aaa68bb2b5f773fd5c9bc4f47036109a508a"
       },
       "path": "mods/parry-1.0.1.jar"
-    },
-    {
-      "downloads": [
-        "https://cdn.modrinth.com/data/SzfkREuN/versions/VlMESUY1/mob_ragdoll_corpse-1.0.2.jar"
-      ],
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "fileSize": 8653,
-      "hashes": {
-        "sha1": "c2ff8e5c2dddb48ee4df92252ee5497376eb42fe",
-        "sha512": "86a4dddc0d90c5ecb92bbba9fbae0ed4de1a680c4cf2b4047fe0ba613363fc99123dd647e1e467c1d605eed3d7e7876867251bcddba0105bef2c007dd812100e"
-      },
-      "path": "mods/mob_ragdoll_corpse-1.0.2.jar"
     },
     {
       "downloads": [
